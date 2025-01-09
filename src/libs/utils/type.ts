@@ -1,4 +1,3 @@
-import { Client } from "@hiveio/dhive";
 
 export interface Post {
   title: string;
