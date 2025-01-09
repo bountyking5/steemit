@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "extends": ["next/core-web-vitals"], // Add the recommended Next.js rules
+  "rules": {
+    "react/no-unescaped-entities": "off",        // Disable warnings for unescaped characters
+    "react-hooks/exhaustive-deps": "off",        // Disable exhaustive dependency checks in hooks
+    "react/react-in-jsx-scope": "off",          // React import is not needed in Next.js
+    "@next/next/no-page-custom-font": "off"     // Disable warnings for custom fonts
+  }
+}
